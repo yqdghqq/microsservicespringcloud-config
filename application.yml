@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicespringcloud-config-atguigu-dev
+    
+---
+spring:
+  profiles: test
+  application:
+    name: microservicespringcloud-config-atguigu-test
